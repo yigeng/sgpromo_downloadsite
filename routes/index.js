@@ -33,10 +33,24 @@ params = {
 }
 /* GET home page. */
 router.get('/', function(req, res) {
-  var channel = '13';
-  var encrypted_channel = encrypt(channel);
-  params['product_package_url'] = params['product_package_url'] + encrypted_channel;
-  res.render('index', params);
+    var channel = '13';
+    var encrypted_channel = encrypt(channel);
+    params['product_package_url'] = params['product_package_url'] + encrypted_channel;
+    req.getConnection(function(err, connection) {
+          if (!!err)
+          {
+              res.send('MYSQL connection failed'+err);
+          }
+          else{
+              connection.query('INSERT INTO Test SET ?',{name:'channel',address:channel}, function (err, result)
+              {
+                  if (!!err)
+                    res.send('insert failed'+err);
+                  else
+                    res.render('index', params);
+              });
+          }
+    });
 });
 
 function encrypt(text){
