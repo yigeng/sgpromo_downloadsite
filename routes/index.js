@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var crypto = require('crypto');
 
 params = {
     // product specific information
@@ -15,7 +16,7 @@ params = {
     product_photo_3_url:'http://app.soulgame.com/app/34/images/skyfall_3.jpg',
     product_photo_4_url:'http://app.soulgame.com/app/34/images/skyfall_4.jpg',
     product_photo_5_url:'http://app.soulgame.com/app/34/images/skyfall_5.jpg',
-    product_package_url:'http://app.soulgame.com/14/34/41/apk/skyfall.apk',
+    product_package_url:'/packages?channel=',
 
     // localizable strings
     download:'下载',
@@ -32,7 +33,17 @@ params = {
 }
 /* GET home page. */
 router.get('/', function(req, res) {
+  var channel = '13';
+  var encrypted_channel = encrypt(channel);
+  params['product_package_url'] = params['product_package_url'] + encrypted_channel;
   res.render('index', params);
 });
+
+function encrypt(text){
+    var cipher = crypto.createCipher('aes-256-cbc','soulgame')
+    var crypted = cipher.update(text,'utf8','hex')
+    crypted += cipher.final('hex');
+    return crypted;
+}
 
 module.exports = router;
