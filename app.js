@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var mysql = require('mysql'), // node-mysql module
     myConnection = require('express-myconnection'),
     dbOptions = {
-        host: 'dev-server',
+        host: '115.28.141.214'
         user: 'soulgame',
         password: 'soulgame20120626',
         port: 3306,
