@@ -1,11 +1,9 @@
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
-var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mysql = require('mysql'); // node-mysql module
-var morgan = require('morgan')
 
 
     myConnection = require('express-myconnection'),
