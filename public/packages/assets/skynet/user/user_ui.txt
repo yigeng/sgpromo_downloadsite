@@ -1,2 +1,0 @@
-vertical_class=com.skynet.android.user.ui.LoginDialog
-horizontal_class=com.skynet.android.user.ui.LoginDialog

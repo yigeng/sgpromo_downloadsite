@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>battleRecord</key>
-	<string>lp:0,lcn:未名英雄,lci:7,lcs:1,lh1i:309,lh2i:304,lh3i:252,lh4i:295,lh5i:289,lh1l:40,lh2l:44,lh3l:40,lh4l:43,lh5l:40,lh1s:5,lh2s:5,lh3s:25,lh4s:5,lh5s:12,lh1rc:0,lh2rc:0,lh3rc:0,lh4rc:0,lh5rc:0,rp:0,rcn:天灾军团,rci:7,rcs:1,rh1i:260,rh2i:248,rh3i:255,rh4i:265,rh5i:250,rh1l:40,rh2l:38,rh3l:37,rh4l:40,rh5l:36,rh1s:5,rh2s:5,rh3s:5,rh4s:5,rh5s:12,rh1rc:0,rh2rc:0,rh3rc:0,rh4rc:0,rh5rc:0,rs:1197619072.000000,boc:9,boc0:1_0_-1_-1_155,boc1:0_4_1_0_202,boc2:1_1_-1_-1_331,boc3:0_1_1_1_443,boc4:1_3_-1_-1_527,boc5:1_4_0_1_785,boc6:1_4_0_4_1041,boc7:1_3_-1_-1_1090,boc8:0_2_-1_-1_1105,tc:11,tc0:0_3_0_5,tc1:0_2_1_65,tc2:0_1_2_125,tc3:0_3_3_185,tc4:0_3_4_360,tc5:0_1_5_430,tc6:0_0_6_640,tc7:0_1_7_880,tc8:0_2_8_980,tc9:0_3_9_1040,tc10:0_1_10_1080,</string>
-</dict>
-</plist>
