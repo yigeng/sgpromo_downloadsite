@@ -49,24 +49,28 @@ router.get('/', function(req, res) {
 
     var product_package_url = '/packages?c=';
     params['product_package_url'] = product_package_url + channel;
-
     res.render('index', params);
 
-//    req.getConnection(function(err, connection) {
-//          if (!!err)
-//          {
-//              res.send('MYSQL connection failed'+err);
-//          }
-//          else{
-//              connection.query('INSERT INTO Test SET ?',{name:'channel',address:channel}, function (err, result)
-//              {
-//                  if (!!err)
-//                    res.send('insert failed'+err);
-//                  else
-//                    res.render('index', params);
-//              });
-//          }
-//    });
+    // record the page_visited event
+    var now = new Date().toISOString().slice(0, 19).replace('T', ' ');
+    var ip = req.headers['x-forwarded-for'] ||
+        req.connection.remoteAddress ||
+        req.socket.remoteAddress ||
+        req.connection.socket.remoteAddress;
+
+    req.getConnection(function(err, connection) {
+          if (!!err)
+          {
+              res.send('MYSQL connection failed'+err);
+          }
+          else{
+              connection.query('INSERT INTO Taiwan_WOC_TEST_TRACKING SET ?',{ip:ip,channel:channel,event:"page_visited",time:now}, function (err, result)
+              {
+                  if (!!err)
+                    res.send('insert failed'+err);
+              });
+          }
+    });
 });
 //
 //function encrypt(text){
