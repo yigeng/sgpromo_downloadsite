@@ -49,7 +49,7 @@ router.get('/', function(req, res) {
 
     var product_package_url = '/packages?c=';
     params['product_package_url'] = product_package_url + channel;
-    res.render('index', params);
+
 
     // record the page_visited event
     var now = new Date().toISOString().slice(0, 19).replace('T', ' ');
@@ -68,9 +68,12 @@ router.get('/', function(req, res) {
               {
                   if (!!err)
                     res.send('insert failed'+err);
+                  else
+                      res.render('index', params);
               });
           }
     });
+
 });
 //
 //function encrypt(text){
