@@ -46,7 +46,8 @@ router.get('/', function(req, res) {
         return;
     }
 
-    params['product_package_url'] = params['product_package_url'] + channel;
+    var product_package_url = '/packages?c=';
+    params['product_package_url'] = product_package_url + channel;
 
     res.render('index', params);
 
