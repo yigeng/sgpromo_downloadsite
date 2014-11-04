@@ -45,8 +45,8 @@ router.get('/', function(req, res) {
         res.render('404.jade', {title: '404: File Not Found', url: url });
         return;
     }
-    var encrypted_channel = encrypt(channel);
-    params['product_package_url'] = params['product_package_url'] + encrypted_channel;
+
+    params['product_package_url'] = params['product_package_url'] + channel;
 
     res.render('index', params);
 
@@ -66,12 +66,12 @@ router.get('/', function(req, res) {
 //          }
 //    });
 });
-
-function encrypt(text){
-    var cipher = crypto.createCipher('aes-256-cbc','soulgame')
-    var crypted = cipher.update(text,'utf8','hex')
-    crypted += cipher.final('hex');
-    return crypted;
-}
+//
+//function encrypt(text){
+//    var cipher = crypto.createCipher('aes-256-cbc','soulgame')
+//    var crypted = cipher.update(text,'utf8','hex')
+//    crypted += cipher.final('hex');
+//    return crypted;
+//}
 
 module.exports = router;
