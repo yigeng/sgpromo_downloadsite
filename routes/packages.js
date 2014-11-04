@@ -4,7 +4,7 @@ var crypto = require('crypto');
 
 /* GET users listing. */
 router.get('/', function(req, res) {
-    var encrypted_channel = req.query['channel'];
+    var encrypted_channel = req.query['c'];
     var channel = decrypt(encrypted_channel);
     var path = __dirname + '/../packages/'+ channel+ '/skyfall.apk';
     res.download(path);

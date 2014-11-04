@@ -16,7 +16,7 @@ params = {
     product_photo_3_url:'http://app.soulgame.com/app/34/images/skyfall_3.jpg',
     product_photo_4_url:'http://app.soulgame.com/app/34/images/skyfall_4.jpg',
     product_photo_5_url:'http://app.soulgame.com/app/34/images/skyfall_5.jpg',
-    product_package_url:'/packages?channel=',
+    product_package_url:'/packages?c=',
 
     // localizable strings
     download:'下载',
@@ -31,26 +31,40 @@ params = {
     detailed_description:'内容介绍',
     other_information:'其他信息'
 }
+
+white_list = ['7001','8002','9003'];
+
 /* GET home page. */
 router.get('/', function(req, res) {
-    var channel = '13';
+    var channel = req.query['c'];
+
+    // 非法channel
+    if (white_list.indexOf(channel) == -1){
+        res.status(404);
+        url = req.url;
+        res.render('404.jade', {title: '404: File Not Found', url: url });
+        return;
+    }
     var encrypted_channel = encrypt(channel);
     params['product_package_url'] = params['product_package_url'] + encrypted_channel;
-    req.getConnection(function(err, connection) {
-          if (!!err)
-          {
-              res.send('MYSQL connection failed'+err);
-          }
-          else{
-              connection.query('INSERT INTO Test SET ?',{name:'channel',address:channel}, function (err, result)
-              {
-                  if (!!err)
-                    res.send('insert failed'+err);
-                  else
-                    res.render('index', params);
-              });
-          }
-    });
+
+    res.render('index', params);
+
+//    req.getConnection(function(err, connection) {
+//          if (!!err)
+//          {
+//              res.send('MYSQL connection failed'+err);
+//          }
+//          else{
+//              connection.query('INSERT INTO Test SET ?',{name:'channel',address:channel}, function (err, result)
+//              {
+//                  if (!!err)
+//                    res.send('insert failed'+err);
+//                  else
+//                    res.render('index', params);
+//              });
+//          }
+//    });
 });
 
 function encrypt(text){
