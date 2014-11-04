@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="chat_username_label">帐号：</string>
+    <string name="chat_pwd_label">密码：</string>
+    <string name="chat_ledou_username_hint">请输入帐号/手机号</string>
+    <string name="chat_sina_username_hint">新浪微博帐号</string>
+    <string name="chat_renren_username_hint">人人网帐号</string>
+    <string name="chat_pwd_hint">请输入密码</string>
+    <string name="chat_login_submit">登录</string>
+    <string name="chat_quickly_login_submit">1秒注册</string>
+    <string name="chat_title_login">乐逗游戏</string>
+    <string name="chat_title_sina_login">新浪微博登录</string>
+    <string name="chat_title_renren_login">人人网帐号登录</string>
+    <string name="chat_title_qq_login">QQ帐号登录</string>
+    <string name="chat_switch_register_page">注册</string>
+    <string name="chat_title_forum">论 坛</string>
+    <string name="chat_back">返回</string>
+    <string name="chat_title_register">注册乐逗帐号</string>
+    <string name="chat_reigster_submit">立即注册</string>
+    <string name="chat_forget_pwd">忘记密码</string>
+    <string name="chat_find_pwd">点击找回</string>
+    <string name="switch_login_type_line">或者用以下帐号登录 </string>
+    <string name="chat_contact">联系客服</string>
+    <string name="chat_forum"> 论 坛    </string> 
+    <string name="chat_contact_tel">075586521413</string>
+    
+    
+    <string name="chat_register_account">帐号：</string>
+    <string name="chat_register_pwd">密码：</string>
+    <string name="chat_register_pwd_confirm">确认密码：</string>
+    <string name="chat_register_hint_account">请输入6-16位字符</string>
+    <string name="chat_register_hint_pwd">请输入6-20位密码</string>
+    <string name="chat_register_hint_pwd_confirm">请重新输入密码</string>
+    <string name="unmatched_username_pwd">用户名或密码错误</string>
+    <string name="chat_forum_progress">正转向论坛页面,请稍候(%s)...</string>
+    <string name="chat_qq_progress">正转向QQ授权页,请稍候(%s)...</string>
+    <string name="chat_sina_progress">正转向新浪授权页,请稍候(%s)...</string>
+    <string name="chat_btn_sure">确定</string>
+    <string name="chat_btn_close">关闭</string>
+    <string name="chat_cancel">取消</string>
+    <string name="chat_conn_fail">连接失败</string>
+    <string name="chat_login_fail">登录失败</string>
+    <string name="chat_service_error">服务器内部错误</string>
+    <string name="chat_login_failed_name_empty">帐号不能为空</string>
+    <string name="chat_login_failed_password_empty">密码不能为空</string>
+    <string name="chat_login_password_not_equal">两个密码不一致</string>
+    <string name="chat_quickly_login_failed">快速登录失败</string>
+    
+    <string name="chat_modify_username_invalid_0">用户名为6-16个字符</string>
+    <string name="chat_modify_username_invalid_1">用户名不能为空</string>
+    <string name="chat_modify_username_invalid_2">用户名仅支持英文、数字</string>
+    <string name="chat_register_username_invalid_0">帐号为6-16个字符</string>
+    <string name="chat_register_username_invalid_1">帐号仅支持英文、数字</string>
+    <string name="chat_register_username_invalid_2">不能全部是数字</string>    
+    <string name="chat_register_username_invalid_4">首字母必须是英文</string>
+    <string name="chat_register_password_invalid_1">密码长度为6-20位字符</string>
+    <string name="chat_register_password_invalid_2">密码仅支持数字、字母、下划线</string>
+    
+    <string name="chat_register_password_not_equal">两个密码不一致</string>
+    <string name="chat_tips">提示信息</string>
+    <string name="chat_modify_account_label">修改帐号</string>
+    <string name="chat_modify_username_invalid">用户名为6-32位字母或数字组成，并以字母开头</string>
+    <string name="chat_modify_password_invalid">密码长度应在6-32位字符之间</string>
+    <string name="chat_modify_password_not_equal">两个密码不一致</string>
+    <string name="chat_modify_old_pwd_empty">旧密码不能为空</string>
+    <string name="chat_modify_account_title">修改乐逗帐号登录</string>
+    <string name="chat_modify_new_user">请输入新用户名</string>
+    <string name="chat_modify_new_pwd">请输入新密码</string>
+    <string name="chat_modify_verify_pwd">请确认新密码</string>
+    <string name="chat_loading">请求中...</string>
+    <string name="char_modify_user">请输入用户名</string>
+    <string name="chat_modify_pwd">请输入密码</string>
+    
+    <string name="chat_reg_success">注册成功</string>
+    <string name="chat_reg_failure">注册失败</string>
+    
+    <string name="chat_update_info_success">更新用户帐户成功</string>
+    <string name="chat_update_info_failure">更新用户帐户失败</string>
+    <string name="chat_update_pwd_success">更新用户密码成功</string>
+    <string name="chat_update_pwd_failure">更新用户密码失败</string>
+    
+    <string name="login_qq_progress">正转向QQ授权页,请稍候(%s)...</string>
+    
+    <string name="unlock_achievement_suc">恭喜您已解锁成就</string>
+    <string name="update_score_suc">提交分数成功</string>
+    <string name="update_score_failed">提交分数失败</string>
+
+    <string name="title_account_setting">乐逗帐号设置</string>
+    <string name="btn_back">返回游戏</string>
+    <string name="string_ledou_accounts">乐逗帐号:</string>
+    <string name="string_security_level">安全级别:</string>
+    <string name="string_modify_name">修改用户名</string>
+    <string name="string_set_pwd">密码设置</string>
+    <string name="string_bind_phone">绑定手机号:</string>
+    <string name="string_pwd_safe">密码保护</string>
+    <string name="string_ledou_recharge">乐逗充值</string>
+    
+    <string name="title_set_username">修改用户名</string>
+    <string name="string_username">用户名:</string>
+    <string name="string_caption">您可以输入6-16个字符</string>
+    <string name="string_error_notice">请输入6-18个字符</string>
+    <string name="btn_complete">完成</string>
+        
+    <string name="title_set_pwd">修改密码</string>
+    <string name="string_old_pwd">旧密码:</string>
+    <string name="string_new_pwd">新密码:</string>
+    <string name="string_pwd">密    码:</string>
+    <string name="confirm_new_pwd">确认新密码:</string>
+    
+    <string name="title_set_phone">绑定手机</string>
+    <string name="string_phone_num">手机号:</string>
+    <string name="string_get_access_code">获取验证码</string>
+    <string name="title_access_code">验证码:</string>
+    <string name="title_account_pwd">帐号密码:</string>
+    <string name="string_bottom_notice">如需帮助，请联系客服：0755-86521413 客服QQ：800051212 \n工作时间：9:30-18:00</string>
+    <string name="title_bind_phone">已绑定手机号:</string>
+    <string name="string_bind_tips1">恭喜你成功绑定手机号，帐号安全提升</string>
+    <string name="string_bind_tips2">建议设置密保问题。</string>
+    <string name="btn_set_safe">设置密保</string>
+    <string name="title_set_safe">设置密保</string>
+    <string name="string_safe_question">问题:</string>
+    <string name="string_safe_answer">答案:</string>
+    <string name="title_find_pwd">找回密码</string>
+    <string name="string_finding_name">请输入您要找回的用户名</string>
+    <string name="btn_next">下一步</string>
+    <string name="tab_phone">手机找回</string>
+    <string name="tab_safe">密保找回</string>
+    <string name="string_input_code">输入验证码：</string>
+    
+    <string name="string_modify_name_fail">对不起，该用户名已存在，请修改</string>
+    <string name="string_modify_name_success">用户名修改成功</string>
+    <string name="string_modify_pwd_error">密码不能为空</string>
+    <string name="string_modify_pwd_success">密码修改成功</string>
+    <string name="string_modify_pwd_fail">密码修改失败</string>
+    <string name="dgc_phone_num_is_empty">请输入11位数字格式的手机号</string>
+    <string name="dgc_get_code_error">获取验证码失败</string>
+    <string name="string_modify_mb_success">密保设置成功</string>
+    <string name="string_modify_mb_fail">密保设置失败</string>
+    <string name="string_bind_phone_success">绑定手机成功</string>
+    <string name="string_bind_phone_fail">绑定手机失败</string>
+    
+    <string name="dgc_mb_question1">我的爱好是什么？</string>
+    <string name="dgc_mb_question2">我就读的小学是什么？</string>
+    <string name="dgc_mb_question3">我曾经的小学班主任是谁？</string>
+    <string name="dgc_mb_question4">我父亲的生日是哪天？</string>
+    <string name="dgc_mb_question5">我最喜欢的动物是什么？</string>
+    <string name="dgc_mb_question6">我最难忘的一天是哪天？</string>
+    <string name="dgc_mb_question7">我最想要的东西是什么？</string>
+    <string name="dgc_mb_question8">我最重要的人是谁？</string>
+    <string name="dgc_mb_question9">自定义设置问题</string>
+    <string name="dgc_mb_question_hint">6-50个字符</string>
+    
+    <string name="dgc_delay_get_code">%1$ds后重新获取验证码</string>
+    <string name="dgc_info_gender">性别：</string>
+    <string name="dgc_info_birth">生日：</string>
+    <string name="dgc_info_secret">保密</string>
+    
+    <string name="dgc_error_phone_number">对不起，手机号格式不正确</string>
+    <string name="dgc_input_access_code">请输入验证码</string>
+    <string name="dgc_error_through_name">该用户名不存在或者没设置密保</string>
+    <string name="dgc_input_safe_question">请选择安全问题</string>
+    <string name="dgc_input_safe_answer">请输入安全问题的答案</string>
+    <string name="dgc_input_question_length">安全问题的长度为6-50字符数</string>
+    
+    <string name="dgc_gender_male">男</string>
+    <string name="dgc_gender_female">女</string>
+    <string name="dgc_input_old_pwd">请输入当前帐户的旧密码</string>
+    <string name="dgc_input_new_pwd">请输入6-20个字符的新密码</string>
+    <string name="dgc_input_confirm_pwd">请再次输入新的密码</string>
+    <string name="dgc_input_present_pwd">请输入当前帐号的密码</string>
+    <string name="dgc_please_login">请先登录</string>
+    
+    <string name="dgc_mul_channel_login_title_bar">使用以下帐号登录</string>
+    
+    <string name="dgc_safe_level_text">您的账户安全级别：</string>
+    <string name="dgc_safe_level_device_text">建议您绑定手机号，提升安全度</string>
+    <string name="dgc_bind_phone_text">绑定手机号：</string>
+    <string name="dgc_obtain_againt">%1$ds重发</string>
+    <string name="dgc_change_telphone">更换</string>
+    <string name="dgc_bind_telphone_number_success">成功绑定手机号：</string>
+    <string name="dgc_set_mb_success">成功设置密保：</string>
+    
+    <string name="dgc_reg_suggest1">帐号更安全，建议使用</string>
+    <string name="dgc_reg_by_phone">手机号码注册</string>
+    <string name="dgc_reg_suggest2">您还可以使用</string>
+    <string name="dgc_reg_by_uid">用户名注册</string>
+    
+    <string name="dgc_reg_phone">手机号：</string>
+    <string name="dgc_reg_phone_hint">请输入11位手机号</string>
+    <string name="dgc_reg_new_pwd_hint">请输入6-20个字符</string>
+    <string name="dgc_reg_input_code_hint">输入验证码</string>
+    <string name="dgc_tip_find_back_pwd">请输入要找回的帐号或手机号</string>
+    <string name="dgc_find_back_text">帐号/手机号</string>
+    <string name="dgc_find_back_next">进入下一步</string>
+    <string name="dgc_find_back_wf_tip">非常抱歉，由于您的帐号未设置密保问题或者绑定手机号，暂时无法找回您的密码，如有疑问请致电：</string>
+    <string name="dgc_find_back_kf_mobile">4008400188</string>
+    <string name="dgc_find_back_set_pwd">重新设置新密码</string>
+    <string name="dgc_string_get_code_againt">重新获取</string>
+    <string name="dgc_input_hint_answer">请输入该问题的答案</string>
+    
+    <string name="dgc_log_in">登录中...</string>
+    <string name="dgc_switch_account">切换帐号</string>
+    <string name="dgc_load_in_defy_death">正在加载中...</string>
+    <string name="dgc_welcome_back">欢迎回来</string>
+    
+    <string name="dgc_ledou_account_label">乐逗帐号：</string>
+     <string name="string_get_access_code_againt">重发</string>
+     <string name="string_token_over_time_againt">您长时间未登录，请重新登录</string>
+     <string name="string_login_error">登录失败，请重新登录</string>
+     
+     <string name="string_prevent_infatuate">家长监护工程</string>
+     <string name="string_no_game_time">游戏已下线\n\n亲爱的玩家根据您监护人提出的申请，您今日/本周游戏时间已结束，为了您的健康，请合理安排时间学习和生活</string>
+     <string name="string_surplus_time_notice">30分钟后将下线\n\n亲爱的玩家根据您监护人的申请，本周/本日您还可以游戏30分钟，为了您的健康，30分钟后将自动下线，请合理安排时间学习和生活。</string>
+     <string name="string_inhibit_time">帐号已被封禁\n\n亲爱的玩家根据您监护人的申请，您已被禁止登录游戏</string>
+     <string name="string_weeken_time">帐号被限制登录\n\n亲爱的玩家根据您监护人的申请，您可以在周六和周日进行游戏</string>
+</resources>

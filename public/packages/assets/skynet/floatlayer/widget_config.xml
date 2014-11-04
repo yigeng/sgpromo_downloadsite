@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgets>
+
+    <!-- description 描述 -->
+    <!-- delay 调用接口showFloatView方法后，延迟多少时间显示 -->
+    <!-- initX 浮标初始化出现时的X坐标位置 的百分比 -->
+    <!-- initY 浮标初始化出现时的Y坐标位置的百分比 -->
+    <!-- visibility 浮标是否可见 -->
+    <!-- moveable 浮标是否可以拖动 -->
+
+    <widget
+        delay="2000"
+        description="悬浮小工具"
+        initX="0" 
+        initY="20"
+        moveable="true"
+        visibility="true" />
+
+</widgets>

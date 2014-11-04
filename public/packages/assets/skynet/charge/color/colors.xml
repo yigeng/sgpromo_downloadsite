@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="content_bg">#FFEFEFEF</color>
+
+    <!-- 选中的支付方式文字着色 -->
+    <color name="selected_charge_text">#FFe6710a</color>
+
+    <!-- 正常未选中的支付方式文字着色 -->
+    <color name="unselected_charge_text">#FF333333</color>
+
+    <!-- 竖屏下拉支付方式列表item press背景着色 -->
+    <color name="droplist_pressed_text">#FFDFE1E2</color>
+
+    <!-- 选中的金额文字着色 -->
+    <color name="selected_amount">#FFFFFFFF</color>
+
+    <!-- 正常未选中的金额文字着色 -->
+    <color name="unselected_amount">#FF000000</color>
+
+    <!-- 充值说明按钮文字着色 -->
+    <color name="charge_desc_btn">#FF666666</color>
+
+    <!-- 用户昵称 -->
+    <color name="nickname">#FFE6710A</color>
+
+    <!-- 用户昵称同行的其他text -->
+    <color name="nickname_other">#FF666666</color>
+
+    <!-- 输入其他金额的文字着色 -->
+    <color name="input_label">#FF333333</color>
+
+    <!-- 输入框hint文字着色 -->
+    <color name="input_hint">#FF999999</color>
+
+    <!-- 输入框hint文字着色 -->
+    <color name="input_split_line">#FF856a5b</color>
+
+    <!-- 商品名称label文字着色 -->
+    <color name="goods_name_label">#FF333333</color>
+
+    <!-- 商品名称value文字着色 -->
+    <color name="goods_name_value">#FF333333</color>
+
+    <!-- 应付金额label文字着色 -->
+    <color name="goods_price_label">#FF333333</color>
+
+    <!-- 应付金额value文字着色 -->
+    <color name="goods_price_value">#FF6fb923</color>
+
+    <!-- 应付金额value文字着色 -->
+    <color name="order_exceed_limit_price">#FFe4850a</color>
+    <!-- 无网络title文字着色 -->
+    <color name="charge_no_network_title">#FF999999</color>
+    <!-- 无网络content文字着色 -->
+    <color name="charge_no_network_content">#FF666666</color>
+
+</resources>

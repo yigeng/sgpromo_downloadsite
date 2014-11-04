@@ -1,0 +1,1 @@
+class=com.skynet.android.charge.frame.ui.CommonChargeUi

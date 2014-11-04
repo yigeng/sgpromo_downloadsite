@@ -1,0 +1,1165 @@
+{
+  "armature_data": [
+    {
+      "strVersion": "1.0.2.0",
+      "version": 1.02,
+      "name": "m_bigmapAn_treeson_arm",
+      "bone_data": [
+        {
+          "name": "Layer13",
+          "parent": "",
+          "x": -1.6093254089355469E-05,
+          "y": 2.6444320678710938,
+          "z": 4,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "name": "BM-laoshuson-zuoshou02.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer26",
+          "parent": "",
+          "x": 1.5620143413543701,
+          "y": -53.069381713867188,
+          "z": 3,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -1.57837188,
+          "kY": 1.57837188,
+          "arrow_x": 36.667724609375,
+          "arrow_y": -1.8729255316429771E-05,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "BM-laoshuson-tui.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 15.1588287,
+                  "y": -10.4578686,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.57837152,
+                  "kY": -1.57837141
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer27",
+          "parent": "Layer26",
+          "x": 36.667732238769531,
+          "y": 2.1091568669362459E-06,
+          "z": 10,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 2.64206982,
+          "kY": -2.64206982,
+          "arrow_x": 51.478183746337891,
+          "arrow_y": 3.6609126254916191E-05,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "BM-laoshuson-shenzi06.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 21.6700745,
+                  "y": -3.1579504,
+                  "cX": 1.00000012,
+                  "cY": 1.00000012,
+                  "kX": -1.0636977,
+                  "kY": 1.06369746
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer28",
+          "parent": "Layer26",
+          "x": 36.667732238769531,
+          "y": 2.1091568669362459E-06,
+          "z": 5,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.07374382,
+          "kY": -0.07374382,
+          "arrow_x": 46.212257385253906,
+          "arrow_y": -1.2892479389847722E-05,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "BM-laoshuson-shenz01.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 28.1744919,
+                  "y": 14.1304531,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.504628,
+                  "kY": -1.50462782
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer33",
+          "parent": "Layer28",
+          "x": 23.63792610168457,
+          "y": 12.980237007141113,
+          "z": 12,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -0.881860137,
+          "kY": 0.881860137,
+          "arrow_x": 25.939144134521484,
+          "arrow_y": -1.4418510545510799E-05,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "BM-laoshuson-zuoshou02.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 13.35882,
+                  "y": 1.40235138,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 2.3864882,
+                  "kY": -2.3864882
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer34",
+          "parent": "Layer33",
+          "x": 26.141433715820312,
+          "y": 0.19037872552871704,
+          "z": 11,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 5.274616,
+          "kY": -5.274616,
+          "arrow_x": 47.633029937744141,
+          "arrow_y": -3.3279065974056721E-06,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "BM-laoshuson-zuoshou01.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 22.5889664,
+                  "y": -5.112995,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 3.3950572,
+                  "kY": 2.88812757
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer31",
+          "parent": "Layer28",
+          "x": 42.477134704589844,
+          "y": -6.6504125595092773,
+          "z": 9,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 1.13489175,
+          "kY": -1.13489175,
+          "arrow_x": 62.2631721496582,
+          "arrow_y": 1.3185781426727772E-06,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "BM-laoshuson-shenzi05.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 34.7943039,
+                  "y": 0.431255341,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.3697368,
+                  "kY": -0.369736284
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer30",
+          "parent": "Layer28",
+          "x": 48.189174652099609,
+          "y": -0.42577603459358215,
+          "z": 8,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.76409775,
+          "kY": -0.76409775,
+          "arrow_x": 48.171043395996094,
+          "arrow_y": -1.9894141587428749E-06,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "BM-laoshuson-shenzi04.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 27.0364151,
+                  "y": -4.337715,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.7405298,
+                  "kY": -0.7405298
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer29",
+          "parent": "Layer28",
+          "x": 46.212253570556641,
+          "y": -2.9733409974141978E-06,
+          "z": 7,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -0.2687559,
+          "kY": 0.2687559,
+          "arrow_x": 52.461772918701172,
+          "arrow_y": -2.0331772248027846E-05,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "BM-laoshuson-shenzi03.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 26.8967361,
+                  "y": -3.36297512,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.773384,
+                  "kY": -1.7733835
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer32",
+          "parent": "Layer28",
+          "x": 42.649116516113281,
+          "y": 7.5587239265441895,
+          "z": 6,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -0.791237,
+          "kY": 0.791237,
+          "arrow_x": 58.639411926269531,
+          "arrow_y": -1.3795986887998879E-05,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "BM-laoshuson-shenzi02.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 34.9163551,
+                  "y": 1.051383,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 2.29586434,
+                  "kY": -2.29586363
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer35",
+          "parent": "Layer28",
+          "x": 24.997058868408203,
+          "y": -7.5303425788879395,
+          "z": 2,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 2.20688486,
+          "kY": -2.20688486,
+          "arrow_x": 18.921560287475586,
+          "arrow_y": 2.2029184037819505E-05,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "BM-laoshuson-youshou02.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 9.025981,
+                  "y": 0.30723,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.70225656,
+                  "kY": 0.7022566
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer36",
+          "parent": "Layer35",
+          "x": 18.921543121337891,
+          "y": -4.3995428313792218E-06,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -0.8836721,
+          "kY": 0.8836721,
+          "arrow_x": 47.727718353271484,
+          "arrow_y": -5.6332646636292338E-06,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "BM-laoshuson-youshou01.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 22.3419075,
+                  "y": -0.6290684,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.181415319,
+                  "kY": -0.181415215
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "m_bigmapAn_treeson_arm",
+      "mov_data": [
+        {
+          "name": "Animation1",
+          "dr": 110,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 1.0,
+          "mov_bone_data": [
+            {
+              "name": "Layer33",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.223963454,
+                  "kY": 0.223963454,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.523018956,
+                  "kY": 0.523018956,
+                  "fi": 50,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.687662959,
+                  "kY": 0.687662959,
+                  "fi": 70,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.118188024,
+                  "kY": 0.118188024,
+                  "fi": 85,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 110,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "Layer34",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.355496347,
+                  "kY": -0.355496347,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.191837862,
+                  "kY": 0.191837862,
+                  "fi": 50,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.277520627,
+                  "kY": -0.277520627,
+                  "fi": 70,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.4487412,
+                  "kY": 0.4487412,
+                  "fi": 85,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 110,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "Layer27",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.1,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 70,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 110,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "Layer31",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.115590826,
+                  "kY": -0.115590826,
+                  "fi": 42,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.137608126,
+                  "kY": -0.137608126,
+                  "fi": 50,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.164323136,
+                  "kY": 0.164323136,
+                  "fi": 85,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 110,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "Layer30",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.127043635,
+                  "kY": -0.127043635,
+                  "fi": 50,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.21549271,
+                  "kY": 0.21549271,
+                  "fi": 85,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 110,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "Layer29",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.174467176,
+                  "kY": -0.174467176,
+                  "fi": 50,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.343646675,
+                  "kY": 0.343646675,
+                  "fi": 85,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 110,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "Layer32",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.305770427,
+                  "kY": 0.305770427,
+                  "fi": 50,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 110,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "Layer28",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.136227176,
+                  "kY": 0.136227176,
+                  "fi": 50,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.166821882,
+                  "kY": 0.166821882,
+                  "fi": 70,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 110,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "Layer13",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "Layer26",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "Layer35",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.3963302,
+                  "kY": 0.3963302,
+                  "fi": 60,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 5.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.249313459,
+                  "kY": 0.249313459,
+                  "fi": 80,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 5.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.0336589441,
+                  "kY": 0.0336589441,
+                  "fi": 95,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 110,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "Layer36",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.498328447,
+                  "kY": -0.498328447,
+                  "fi": 60,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.1798289,
+                  "kY": 0.1798289,
+                  "fi": 80,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.118203387,
+                  "kY": 0.118203387,
+                  "fi": 95,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 110,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "BM-laoshuson-shenz01",
+      "width": 70.0,
+      "height": 76.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "BM-laoshuson-shenzi02",
+      "width": 52.0,
+      "height": 60.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "BM-laoshuson-zuoshou02",
+      "width": 23.0,
+      "height": 27.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "BM-laoshuson-shenzi03",
+      "width": 58.0,
+      "height": 58.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "BM-laoshuson-shenzi04",
+      "width": 53.0,
+      "height": 45.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "BM-laoshuson-shenzi05",
+      "width": 63.0,
+      "height": 50.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "BM-laoshuson-shenzi06",
+      "width": 56.0,
+      "height": 62.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "BM-laoshuson-tui",
+      "width": 98.0,
+      "height": 44.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "BM-laoshuson-youshou01",
+      "width": 53.0,
+      "height": 32.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "BM-laoshuson-youshou02",
+      "width": 24.0,
+      "height": 24.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "BM-laoshuson-zuoshou01",
+      "width": 66.0,
+      "height": 63.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    }
+  ],
+  "config_file_path": [
+    "m_bigmapAn_treeson_arm0.plist"
+  ]
+}

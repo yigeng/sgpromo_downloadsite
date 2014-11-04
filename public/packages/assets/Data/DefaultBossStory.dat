@@ -1,0 +1,16 @@
+{
+  "tip":"default",
+  "ph":"false",
+  "pc":"false",
+  "oh":"true",
+  "oc":"true",
+  "before":[
+               {"type":"ph_in"},
+               {"type":"oh_in"}
+           ],
+  "after":[
+               {"type":"pc_in"},
+          ],
+  "after_battle":[
+                 ]
+}

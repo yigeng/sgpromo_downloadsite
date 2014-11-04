@@ -1,0 +1,19 @@
+{
+  "tip":"default",
+  "ph":"false",
+  "pc":"false",
+  "oh":"false",
+  "oc":"false",
+  "before":[
+               {"type":"ph_in"},
+               {"type":"talk", "param":"Talk.FTUE.1.0"},
+               {"type":"oh_in"},
+               {"type":"oc_in"}
+           ],
+  "after":[
+               {"type":"talk", "param":"Talk.FTUE.1.1"},
+               {"type":"pc_in"}
+          ],
+  "after_battle":[
+                 ]
+}

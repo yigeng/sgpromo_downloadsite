@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <string name="chat_service_error">服务器内部错误</string>
+    <string name="chat_login_fail">登录失败</string>
+    <string name="chat_title_sina_login">新浪微博登录</string>
+    <string name="chat_sina_progress">正转向新浪授权页,请稍候(%s)...</string>
+    <string name="chat_tips">提示信息</string>
+    <string name="chat_btn_sure">确定</string>
+    <string name="chat_cancel">取消</string>
+    <string name="chat_conn_fail">连接失败</string>
+</resources>

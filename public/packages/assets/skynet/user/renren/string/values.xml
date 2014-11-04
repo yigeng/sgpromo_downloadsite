@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>   
+    
+    <string name="chat_login_failed_empty">帐号或密码不能为空</string>
+	<string name="chat_title_renren_login">人人网帐号登录</string>
+	<string name="chat_username_label">帐号：</string>
+    <string name="chat_pwd_label">密码：</string>
+    <string name="chat_renren_username_hint">人人网帐号</string>
+    <string name="chat_pwd_hint">请输入密码</string>
+    <string name="chat_login_submit">登录</string>
+    
+</resources>

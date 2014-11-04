@@ -18,8 +18,8 @@ html(lang="zh-CN")
                             | #{version} #{product_version} | #{package_size} #{product_size}
                             br
                         div
-                            a(style="text-decoration: none;", href="#{product_package_url}")
-                                div(style="border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 75px; margin-left: 40px; margin-top: 31px; background-color: #2784DA; color: #fff;height: 25px;padding-top: 2px;padding-left: 8px;") #{download_install}
+                            a(style="text-decoration: none;", href="#{product_package_url}", onclick="document.getElementById('download_button').innerHTML='#{downloaded}'")
+                                div(id="download_button" style="border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 75px; margin-left: 40px; margin-top: 31px; background-color: #2784DA; color: #fff;height: 25px;padding-top: 2px;padding-left: 8px;") #{download_install}
             hr(style="width: 100% ;")
             .row(style="margin-top: 20px; margin-right: 0px; margin-left: 0px;")
                 div(style="height: 280px; margin-left: 0px; background-color: #fff; width: 100%;padding-left: 20px;")

@@ -1,0 +1,45 @@
+{
+	"local":
+	{
+	    "potion_id": 0,
+        "commander":
+	    {
+	        "commander_name":        "LocalCommander",
+            "commander_id":          7,
+      		"commander_skill_level": 1
+	    },
+		"fight_card_list":
+		[
+			{
+				"hero_id":      362,
+				"hero_level":   100,
+				"skill_level":  25,
+				"rune":         []
+			},
+			{
+				"hero_id":      331,
+				"hero_level":   100,
+				"skill_level":  25,
+				"rune":         []
+			},
+			{
+				"hero_id":      332,
+				"hero_level":   100,
+				"skill_level":  25,
+				"rune":         []
+			},
+			{
+				"hero_id":      333,
+				"hero_level":   100,
+				"skill_level":  25,
+				"rune":         []
+			},
+			{
+				"hero_id":      334,
+				"hero_level":   100,
+				"skill_level":  25,
+				"rune":         []
+			}
+		]
+	}
+}

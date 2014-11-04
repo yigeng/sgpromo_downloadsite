@@ -1,0 +1,88 @@
+{
+	"php_info":"<br>use_memory    :946.31 kb<br>use_time   :0.0882129669",
+	"local":
+	{
+	    "potion_id": 0,
+        "commander":
+	    {
+	        "commander_name":        "LocalCommander",
+            "commander_id":          7,
+      		"commander_skill_level": 1
+	    },
+		"fight_card_list":
+		[
+			{
+				"hero_id":      334,
+				"hero_level":   100,
+				"skill_level":  25,
+				"rune":         []
+			},
+			{
+				"hero_id":      335,
+				"hero_level":   100,
+				"skill_level":  25,
+				"rune":         []
+			},
+			{
+				"hero_id":      332,
+				"hero_level":   100,
+				"skill_level":  25,
+				"rune":         []
+			},
+			{
+				"hero_id":      347,
+				"hero_level":   100,
+				"skill_level":  25,
+				"rune":         []
+			},
+			{
+				"hero_id":      337,
+				"hero_level":   100,
+				"skill_level":  25,
+				"rune":         []
+			}
+		]
+	},
+	"remote":
+	{
+		"commander":
+		{
+			"commander_name":        "RemoteCommander",
+		    "commander_id":          7,
+		    "commander_skill_level": 1
+		},
+		"fight_card_list":
+		[
+            {
+                "hero_id":      405,
+                "hero_level":   100,
+                "skill_level":  25,
+                "rune":         []
+            },
+            {
+                "hero_id":      405,
+                "hero_level":   100,
+                "skill_level":  25,
+                "rune":         []
+            },
+            {
+                "hero_id":      373,
+                "hero_level":   100,
+                "skill_level":  25,
+                "rune":         []
+            },
+            {
+                "hero_id":      405,
+                "hero_level":   100,
+                "skill_level":  25,
+                "rune":         []
+            },
+            {
+                "hero_id":      405,
+                "hero_level":   100,
+                "skill_level":  25,
+                "rune":         []
+            }
+		]
+	}
+}

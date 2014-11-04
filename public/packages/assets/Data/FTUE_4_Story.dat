@@ -1,0 +1,18 @@
+{
+  "tip":"default",
+  "tip":"default",
+  "ph":"false",
+  "pc":"false",
+  "oh":"true",
+  "oc":"true",
+  "before":[
+               {"type":"ph_in"},
+           ],
+  "after":[
+              {"type":"pc_in"},
+          ],
+  "after_battle":[
+                     {"type":"talk", "param":"Talk.FTUE.4.1"},
+                     {"type":"do_firstdragon", "param":""},
+                 ]
+}

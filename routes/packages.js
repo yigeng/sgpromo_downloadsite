@@ -1,13 +1,20 @@
 var express = require('express');
 var router = express.Router();
 var crypto = require('crypto');
+var fs = require ('fs');
 
 /* GET users listing. */
 router.get('/', function(req, res) {
     var channel = req.query['c'];
-    var path = __dirname + '/../packages/'+ channel+ '/skyfall.apk';
-    console.log (path)
-    res.download(path);
+    var filename = 'skyfall.apk';
+    var path = __dirname + '/../packages/'+ channel+"/"+ filename;
+    res.setHeader('Content-disposition', 'attachment; filename=' + filename);
+    // res.download(path);
+
+
+    var filestream = fs.createReadStream(path);
+
+    filestream.pipe(res);
 });
 
 //function decrypt(text){

@@ -20,6 +20,7 @@ params = {
 
     // localizable strings
     download:'下载',
+    downloaded:'已下载',
     version:'版本',
     version_number:'版本号',
     producer:'制作方',
@@ -41,7 +42,7 @@ router.get('/', function(req, res) {
     // 非法channel
     if (white_list.indexOf(channel) == -1){
         res.status(404);
-        url = req.url;
+        var url = req.url;
         res.render('404.jade', {title: '404: File Not Found', url: url });
         return;
     }

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="TIPS">提示</string>
+    <string name="HAS_NEW_VERSION">有最新版本</string>
+    <string name="DOWNLOAD_AVAILABLE">可供下载，当前版本</string>
+    <string name="DOWNLOAD_NEW_VERSION_CONFIRM">，是否下载最新版本？</string>
+    <string name="DOWNLOAD">下载</string>
+    <string name="update_failed">更新失败</string>
+    <string name="EXIT">退出</string>
+    <string name="cancel">取消</string>
+    <string name="game_updating">游戏更新中...</string>
+    <string name="CANCEL">取消</string>
+    <string name="CREATE_FILE_FAIL">文件创建失败</string>
+    <string name="NETWORK_ERROR">网络设置好像出错了，请检查网络设置</string>
+    <string name="SDCARD_NOT_ENOUGH_SPACE">没有足够的空间</string>
+    <string name="sdcard_not_available">SD卡不可用</string>
+    <string name="dialog_initconfig_msg">您正在使用的是盗版软件，有不可预知的风险，请支持下载正版！</string>
+    <string name="dialog_initconfig_msg_2">请先卸载盗版</string>
+    <string name="chat_btn_sure">确定</string>
+    <string name="exit_confirm">确认退出游戏？</string>
+    <string name="confirm">确定</string>
+    <string name="action_install">安装</string>
+    <string name="install_tips">新版本已准备好，是否安装？</string>
+
+</resources>
