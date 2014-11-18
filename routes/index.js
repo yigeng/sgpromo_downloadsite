@@ -33,7 +33,7 @@ params = {
     other_information:'其他信息'
 }
 
-white_list = ['7001','8002','9003'];
+white_list = ['56','57','58','59','60','7001','8002','9003'];
 
 /* GET home page. */
 router.get('/', function(req, res) {
