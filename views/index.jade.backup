@@ -1,0 +1,65 @@
+html(lang="zh-CN")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+        title #{download}#{product_name}
+        script(src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js")
+        link(href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.css", rel="stylesheet")
+    body(style="width: 100%;")
+        .container-fluid(style="padding-left: 0px;padding-right: 0px")
+            .row(style="margin-top: 20px; margin-right: 0px; margin-left: 0px;")
+                .title(style="width: 100%;")
+                    .title_icon(style="width: 30%; float: left; padding-left: 20px; padding-top: 20px;min-width:60px;")
+                        img.img-rounded(alt="120x120", src="#{product_main_icon_url}", style="width: 100%;max-width:140px;")
+                    .title_info(style="float: left; width: 50%;")
+                        .title_name(style="margin-left: 40px; margin-top: 18px;")
+                            h2 #{product_name}
+                        .title_other(style="margin-left: 40px; margin-top: 10px;")
+                            | #{product_producer}
+                            br
+                            | #{produce_type}
+                        div
+                            a(style="text-decoration: none;", href="#{product_package_url}", onclick="document.getElementById('download_button').innerHTML='#{downloaded}'")
+                                div(id="download_button" style="border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 75px; margin-left: 40px; margin-top: 31px; background-color: #2784DA; color: #fff;height: 25px;padding-top: 2px;padding-left: 8px;") #{download_install}
+            hr(style="width: 100% ;")
+            .row(style="margin-top: 20px; margin-right: 0px; margin-left: 0px;")
+                div(style="height: 280px; margin-left: 0px; background-color: #fff; width: 100%;padding-left: 20px;")
+                    h4 #{photo_division}
+                    div(style="width: 100%;overflow-x: scroll;")
+                        div(style="width: 920px;")
+                            div(style="width: 160px; background-color: bisque; height: 210px; margin-left: 20px; float: left;")
+                                img(style="width:100%;height:100%", alt="", src="#{product_photo_1_url}")
+                            div(style="width: 160px; background-color: bisque; height: 210px; margin-left: 20px; float: left;")
+                                img(style="width:100%;height:100%", alt="", src="#{product_photo_2_url}")
+                            div(style="width: 160px; background-color: bisque; height: 210px; margin-left: 20px; float: left;")
+                                img(style="width:100%;height:100%", alt="", src="#{product_photo_3_url}")
+                            div(style="width: 160px; background-color: bisque; height: 210px; margin-left: 20px; float: left;")
+                                img(style="width:100%;height:100%", alt="", src="#{product_photo_4_url}")
+                            div(style="width: 160px; background-color: bisque; height: 210px; margin-left: 20px; float: left;")
+                                img(style="width:100%;height:100%", alt="", src="#{product_photo_5_url}")
+            hr(style="width: 100%;")
+            .row(style="margin-top: 20px;margin-right: 0px; margin-left: 0px;")
+                div(style=" margin-left: 0px; background-color: #fff; width: 100%; padding-left: 20px;")
+                    h4(style="padding-bottom: 20px;") #{update_details}
+                    div(style="margin-left: 0px;padding-left: 20px;padding-top: 20px;")
+                        <p>2014年09月24日更新</p>
+                        <p>- 开放即时真人竞技场。</p>
+                        <p>- 开放拍卖行。</p>
+                        <p>- 开放战队及战队副本。</p>
+                        <p>- 开放华丽的武器系统。</p>
+            hr(style="width: 100%;")
+            .row(style="margin-top: 20px;margin-right: 0px; margin-left: 0px;")
+                div(style=" margin-left: 0px; background-color: #fff;width: 100%;padding-left: 20px;")
+                    h4(style="padding-bottom: 20px;") #{detailed_description}
+                    div(style="margin-left: 0px;padding-left: 20px;padding-right: 20px;")
+                        <p>《天降》</p>
+                        <p>-------------------------</p>
+                        <p>全名《天降-近卫英雄传》，是移动平台首款即时战斗卡牌游戏。与传统的回合制卡牌游戏不同，本作采用了创新的即时对战系统，让玩家在移动端也能再次体验沉默打断，开大控场翻盘，极限薄葬救人的极限操作快感。欧美魔幻风格的精美画面、创新的游戏玩法、丰富的策略组合、极致的操作快感让本作成为卡牌游戏中不可多得的精品。玩家在游戏中将扮演近卫星禁卫军领袖，在麾下将领的的帮助下带领近卫星的人民一起对抗从天星降临而来的天降军团。</p>
+            hr(style="width: 100%;")
+            .row(style="margin-top: 20px; margin-right: 0px; margin-left: 0px;")
+                div(style="height: 250px; margin-left: 0px; background-color: #fff; width: 100%;padding-left: 20px;")
+                    h4(style="padding-bottom: 20px;") #{other_information}
+                    div(style="margin-left: 0px;padding-left: 20px;padding-right: 20px;")
+                        p - #{producer}:#{product_producer}
+                        p - #{last_update}:#{product_last_update}
+                        p - #{version}:#{product_version}

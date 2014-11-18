@@ -1,0 +1,679 @@
+
+.body{
+	background-color: #e5e5e5;
+	color: #333;
+	font-family: "Roboto",Arial,sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 1.4;
+	height: 100%;
+	position: relative;
+	text-rendering: optimizeLegibility;
+	zoom: 1;
+}
+
+@media (min-width: 768px){
+	/* .mobile-action-bar {
+		display:none;
+	} */
+	.mobile-action-bar {
+		background: #fff;
+		border-bottom: 1px solid #aaa;
+		height: 48px;
+		left: 0;
+		position: fixed;
+		text-align: center;
+		top: 0;
+		width: 100%;
+		z-index: 984;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	.cover-image{
+		width: 100%; 
+		max-width: 140px;
+	}
+
+	
+	
+	.mobile-action-bar .play-logo {
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+		background-size: contain;
+		background-image: url(../img/logo_soulgame.png);
+		background-repeat: no-repeat;
+		display: inline-block;
+		height: 40px;
+		margin-top: 5px;
+		width: 160px;
+	}
+	
+	.area-1{
+		margin-top: 47px; 
+		margin-right: 0px; 
+		margin-left: 0px; 
+
+	}
+	.details-info{
+		background-color: #e5e5e5;
+		border-bottom: 2px solid #d6d6d6;
+		position: relative;
+		width: 100%;
+		display: inline-block;
+		text-align: left;
+	}
+	
+	.cover-container{
+		margin: 15px 10px 0 15px;
+		display: inline-block;
+		float: left;
+	}
+	.details-info .cover-image{
+		width: 100px;
+		border: 0;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.info-container{
+		min-height: 0;
+		padding: 15px 15px 0 15px;
+	}
+	
+	.info-container .document-title {
+		font-size: 22px;
+		line-height: 24px;
+		color: #333;
+	
+		font-weight: 300;
+
+		margin-bottom: 1px;
+		white-space: normal;
+	}
+	.info-container a.document-subtitle.primary, .info-container .document-subtitle.primary a {
+		font-weight: 700;
+	}
+	.info-container .document-subtitle {
+		padding-top: 5px;
+	}
+	
+	.info-container .document-subtitle {
+		color: #8d8d8d;
+		display: inline-block;
+		font-size: smaller;;
+		font-weight: 300;
+		vertical-align: top;
+		white-space: nowrap;
+	}
+	.details-actions {
+		clear: both;
+		margin: 0;
+		padding: 15px 0 0 0;
+	}
+	.play-button{
+		background-color: #b3c833;
+		min-width: 136px;
+		margin-bottom: 10px;
+		min-width: 150px;
+		padding: 0 12px;
+		text-align: center;
+		margin-right: 5px;
+		line-height: 36px;
+		border: 1px;
+		color: #fff;
+		font-size: 14px;
+		height: 36px;
+		border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+		-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+		-moz-box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+		box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-transition: all .2s;
+		-moz-transition: all .2s;
+		-o-transition: all .2s;
+		transition: all .2s;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		/* background-color: #fff; */
+		border: 1px solid rgba(0,0,0,0.17);
+		color: #737373;
+		cursor: pointer;
+		display: inline-block;
+		font-family: "Roboto",sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		height: 36px;
+		line-height: 34px;
+		min-width: 40px;
+		padding: 0 20px;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+		vertical-align: middle;
+	}
+	.play-button .install{
+		
+		outline: none;
+		-webkit-box-sizing: initial;
+		-moz-box-sizing: initial;
+		box-sizing: initial;
+		-webkit-font-smoothing: inherit;
+		align-items: initial;
+		background: none;
+		border: 0;
+		box-sizing: initial;
+		font: inherit;
+		margin: 0;
+		padding: 0;
+		text-align: inherit;
+		color: #fff;
+		padding: 0 20px;
+		width: 44px;
+	}
+	
+	.install-help{
+		background-color: #FFF;
+		min-width: 136px;
+		margin-bottom: 10px;
+		min-width: 150px;
+		padding: 0 12px;
+		text-align: center;
+		margin-right: 5px;
+		line-height: 36px;
+		border: 1px;
+		color: #fff;
+		font-size: 14px;
+		height: 36px;
+		border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+		-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+		-moz-box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+		box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-transition: all .2s;
+		-moz-transition: all .2s;
+		-o-transition: all .2s;
+		transition: all .2s;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		/* background-color: #fff; */
+		border: 1px solid rgba(0,0,0,0.17);
+		color: #737373;
+		cursor: pointer;
+		display: inline-block;
+		font-family: "Roboto",sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		height: 36px;
+		line-height: 34px;
+		min-width: 40px;
+		padding: 0 20px;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+		vertical-align: middle;
+	
+	}
+	.help-container .help{
+		outline: none;
+		-webkit-box-sizing: initial;
+		-moz-box-sizing: initial;
+		box-sizing: initial;
+		-webkit-font-smoothing: inherit;
+		align-items: initial;
+		background: none;
+		border: 0;
+		box-sizing: initial;
+		font: inherit;
+		margin: 0;
+		padding: 0;
+		text-align: inherit;
+		color: #737373;
+		padding: 0 20px;
+		width: 44px;
+	}
+	
+	.details-section-contents {
+		display: inline-block;
+		position: relative;
+		text-align: left;
+		width: 100%;
+	}
+
+	.expandable {
+		margin-left: -50px;
+		overflow: hidden;
+		padding: 0 50px;
+		position: relative;
+		width: 100%;
+	}
+	.expandable {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin: 0;
+		min-width: 0;
+		overflow: auto;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		padding: 0;
+	}
+
+	
+	.details-section.screenshots .expandable {
+		overflow: hidden;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+	.details-section.screenshots .thumbnails-wrapper {
+		height: 317px;
+		margin-bottom: 32px;
+		overflow-y: hidden;
+		width: 100%;
+	}	
+	.details-section.screenshots .thumbnails-wrapper {
+		height: auto;
+		margin-bottom: 0;
+	}
+	.details-section.screenshots {
+		overflow: hidden;
+		/* padding: 0 50px 0 248px; */
+		padding: 15px;
+		position: relative;
+	}
+	.details-section.screenshots .thumbnails .screenshot {
+		-webkit-box-shadow: 0 0 4px rgba(0,0,0,0.1);
+		-moz-box-shadow: 0 0 4px rgba(0,0,0,0.1);
+		box-shadow: 0 0 4px rgba(0,0,0,0.1);
+		display: inline-block;
+		height: 100%;
+		margin: 0 5px 40px 5px;
+		vertical-align: top;
+	}
+	.details-section.screenshots .thumbnails {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		height: 349px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		padding: 32px 0;
+		text-align: left;
+		white-space: nowrap;
+		width: 100%;
+	}
+
+	.details-section.screenshots .thumbnails {
+		width: auto;
+		overflow-x: visible;
+		overflow-y: hidden;
+	}
+	.details-section.screenshots .thumbnails, 
+	.screenshots .details-trailer, 
+	.details-trailer .video-image {
+		height: 220px;
+		padding: 0;
+	}
+	
+	.details-section-divider {
+
+		padding-top: 15px;
+		margin: 0;
+		border-bottom: 1px solid #d6d6d6;
+		max-width: 1360px;
+		
+	}
+	.video-filter{
+		
+	}
+	
+	.video-filter-img{
+		
+		position: absolute;
+		top: -90000;
+	}
+}
+
+@media (max-width: 768px){
+	.mobile-action-bar {
+		background: #fff;
+		border-bottom: 1px solid #aaa;
+		height: 48px;
+		left: 0;
+		position: fixed;
+		text-align: center;
+		top: 0;
+		width: 100%;
+		z-index: 984;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	.mobile-action-bar .play-logo {
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+		background-size: contain;
+		background-image: url(../img/logo_soulgame.png);
+		background-repeat: no-repeat;
+		display: inline-block;
+		height: 40px;
+		margin-top: 5px;
+		width: 160px;
+	}
+	
+	.area-1{
+		margin-top: 47px; 
+		margin-right: 0px; 
+		margin-left: 0px; 
+
+	}
+	.details-info{
+		background-color: #e5e5e5;
+		border-bottom: 2px solid #d6d6d6;
+		position: relative;
+		width: 100%;
+		display: inline-block;
+		text-align: left;
+	}
+	
+	.cover-container{
+		margin: 15px 10px 0 15px;
+		display: inline-block;
+		float: left;
+	}
+	.details-info .cover-image{
+		width: 100px;
+		border: 0;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.info-container{
+		min-height: 0;
+		padding: 15px 15px 0 15px;
+	}
+	
+	.info-container .document-title {
+		font-size: 22px;
+		line-height: 24px;
+		color: #333;
+	
+		font-weight: 300;
+
+		margin-bottom: 1px;
+		white-space: normal;
+	}
+	.info-container a.document-subtitle.primary, .info-container .document-subtitle.primary a {
+		font-weight: 700;
+	}
+	.info-container .document-subtitle {
+		padding-top: 5px;
+	}
+	
+	.info-container .document-subtitle {
+		color: #8d8d8d;
+		display: inline-block;
+		font-size: smaller;;
+		font-weight: 300;
+		vertical-align: top;
+		white-space: nowrap;
+	}
+	.details-actions {
+		clear: both;
+		margin: 0;
+		padding: 15px 0 0 0;
+	}
+	.play-button{
+		background-color: #b3c833;
+		min-width: 136px;
+		margin-bottom: 10px;
+		min-width: 150px;
+		padding: 0 12px;
+		text-align: center;
+		margin-right: 5px;
+		line-height: 36px;
+		border: 1px;
+		color: #fff;
+		font-size: 14px;
+		height: 36px;
+		border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+		-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+		-moz-box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+		box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-transition: all .2s;
+		-moz-transition: all .2s;
+		-o-transition: all .2s;
+		transition: all .2s;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		/* background-color: #fff; */
+		border: 1px solid rgba(0,0,0,0.17);
+		color: #737373;
+		cursor: pointer;
+		display: inline-block;
+		font-family: "Roboto",sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		height: 36px;
+		line-height: 34px;
+		min-width: 40px;
+		padding: 0 20px;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+		vertical-align: middle;
+	}
+	.play-button .install{
+		
+		outline: none;
+		-webkit-box-sizing: initial;
+		-moz-box-sizing: initial;
+		box-sizing: initial;
+		-webkit-font-smoothing: inherit;
+		align-items: initial;
+		background: none;
+		border: 0;
+		box-sizing: initial;
+		font: inherit;
+		margin: 0;
+		padding: 0;
+		text-align: inherit;
+		color: #fff;
+		padding: 0 20px;
+		width: 44px;
+	}
+	
+	.install-help{
+		background-color: #FFF;
+		min-width: 136px;
+		margin-bottom: 10px;
+		min-width: 150px;
+		padding: 0 12px;
+		text-align: center;
+		margin-right: 5px;
+		line-height: 36px;
+		border: 1px;
+		color: #fff;
+		font-size: 14px;
+		height: 36px;
+		border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+		-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+		-moz-box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+		box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-transition: all .2s;
+		-moz-transition: all .2s;
+		-o-transition: all .2s;
+		transition: all .2s;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		/* background-color: #fff; */
+		border: 1px solid rgba(0,0,0,0.17);
+		color: #737373;
+		cursor: pointer;
+		display: inline-block;
+		font-family: "Roboto",sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		height: 36px;
+		line-height: 34px;
+		min-width: 40px;
+		padding: 0 20px;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+		vertical-align: middle;
+	
+	}
+	.help-container .help{
+		outline: none;
+		-webkit-box-sizing: initial;
+		-moz-box-sizing: initial;
+		box-sizing: initial;
+		-webkit-font-smoothing: inherit;
+		align-items: initial;
+		background: none;
+		border: 0;
+		box-sizing: initial;
+		font: inherit;
+		margin: 0;
+		padding: 0;
+		text-align: inherit;
+		color: #737373;
+		padding: 0 20px;
+		width: 44px;
+	}
+	
+	.details-section-contents {
+		display: inline-block;
+		position: relative;
+		text-align: left;
+		width: 100%;
+	}
+
+	.expandable {
+		margin-left: -50px;
+		overflow: hidden;
+		padding: 0 50px;
+		position: relative;
+		width: 100%;
+	}
+	.expandable {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin: 0;
+		min-width: 0;
+		overflow: auto;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		padding: 0;
+	}
+
+	
+	.details-section.screenshots .expandable {
+		overflow: hidden;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+	.details-section.screenshots .thumbnails-wrapper {
+		height: 317px;
+		margin-bottom: 32px;
+		overflow-y: hidden;
+		width: 100%;
+	}	
+	.details-section.screenshots .thumbnails-wrapper {
+		height: auto;
+		margin-bottom: 0;
+	}
+	.details-section.screenshots {
+		overflow: hidden;
+		/* padding: 0 50px 0 248px; */
+		padding: 15px;
+		position: relative;
+	}
+	.details-section.screenshots .thumbnails .screenshot {
+		-webkit-box-shadow: 0 0 4px rgba(0,0,0,0.1);
+		-moz-box-shadow: 0 0 4px rgba(0,0,0,0.1);
+		box-shadow: 0 0 4px rgba(0,0,0,0.1);
+		display: inline-block;
+		height: 100%;
+		margin: 0 5px 40px 5px;
+		vertical-align: top;
+	}
+	.details-section.screenshots .thumbnails {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		height: 349px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		padding: 32px 0;
+		text-align: left;
+		white-space: nowrap;
+		width: 100%;
+	}
+
+	.details-section.screenshots .thumbnails {
+		width: auto;
+		overflow-x: visible;
+		overflow-y: hidden;
+	}
+	.details-section.screenshots .thumbnails, 
+	.screenshots .details-trailer, 
+	.details-trailer .video-image {
+		height: 220px;
+		padding: 0;
+	}
+	
+	.details-section-divider {
+
+		padding-top: 15px;
+		margin: 0;
+		border-bottom: 1px solid #d6d6d6;
+		max-width: 1360px;
+		
+	}
+	.video-filter{
+		
+	}
+	.video-filter-img{
+		position: absolute;
+		top: -90000;
+	}
+}
+
+
