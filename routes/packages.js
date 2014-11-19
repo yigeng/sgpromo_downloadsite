@@ -6,7 +6,7 @@ var fs = require ('fs');
 /* GET users listing. */
 router.get('/', function(req, res) {
     var channel = req.query['c'];
-    var filename = 'skyfall.apk';
+    var filename = 'DuelOfHeros.apk';
     var path = __dirname + '/../packages/'+ channel+"/"+ filename;
     res.setHeader('Content-disposition', 'attachment; filename=' + filename);
 
