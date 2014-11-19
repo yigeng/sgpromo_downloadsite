@@ -24,16 +24,16 @@ router.get('/', function(req, res) {
         req.connection.socket.remoteAddress;
 
     req.getConnection(function(err, connection) {
-        if (!!err)
+     if (!!err)
         {
-            res.send('MYSQL connection failed'+err);
-        }
+        	console.error (now + " get mysql connection failed "+ err);
+	}
         else{
-            connection.query('INSERT INTO Taiwan_WOC_TEST_TRACKING SET ?',{ip:ip,channel:channel,event:"apk_downloaded",time:now}, function (err, result)
+            connection.query('INSERT IGNORE INTO Taiwan_WOC_TEST_TRACKING SET ?',{ip:ip,channel:channel,event:"apk_downloaded",time:now}, function (err, result)
             {
                 if (!!err)
-                    res.send('insert failed'+err);
-            });
+            		console.error (now + " insert into mysql db failed "+ err);
+		});
         }
     });
 });
