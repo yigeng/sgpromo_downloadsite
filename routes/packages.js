@@ -8,7 +8,10 @@ router.get('/', function(req, res) {
     var channel = req.query['c'];
     var filename = 'DuelOfHeros.apk';
     var path = __dirname + '/../packages/'+ channel+"/"+ filename;
+    var stats = fs.statSync(path);
+    var fileSize = stats["size"];
     res.setHeader('Content-disposition', 'attachment; filename=' + filename);
+    res.setHeader('Content-Length',fileSize);   
 
     var filestream = fs.createReadStream(path);
     filestream.pipe(res);
