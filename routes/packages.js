@@ -31,6 +31,7 @@ router.get('/', function(req, res) {
         else{
             connection.query('INSERT IGNORE INTO Taiwan_WOC_TEST_TRACKING SET ?',{ip:ip,channel:channel,event:"apk_downloaded",time:now}, function (err, result)
             {
+		connection.release();
                 if (!!err)
             		console.error (now + " insert into mysql db failed "+ err);
 		});

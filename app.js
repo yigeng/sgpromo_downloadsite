@@ -13,7 +13,8 @@ var mysql = require('mysql'); // node-mysql module
         user: 'skyftwzgwr_temp',
         password: 'skyFt5wzjGro',
         port: 3306,
-        database: 'together'
+        database: 'together',
+	connectionLimit : 30
     };
 
 var routes = require('./routes/index');
