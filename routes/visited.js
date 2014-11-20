@@ -4,7 +4,6 @@ var router = express.Router();
 /* GET visited request. */
 router.get('/', function(req, res) {
 	var channel = req.query['c'];
-	console.log ("channel "+channel +" is visited!");
 	res.writeHead(200, { });
     res.end();
 	    // record the page_visited event
