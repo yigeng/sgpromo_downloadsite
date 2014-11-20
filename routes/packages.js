@@ -20,6 +20,9 @@ router.get('/', function(req, res) {
 
 //    var filestream = fs.createReadStream(path);
 //    filestream.pipe(res);
+     var apk_name = "DuelOfHeros.apk ";
+     var apk_address = "http://fastdcc.gamefirst.com.tw/soulgame/app/"+channel+"/"+apk_name;
+
      res.writeHead(302, {
         'Location': apk_links[channel]
         //add other headers here...
