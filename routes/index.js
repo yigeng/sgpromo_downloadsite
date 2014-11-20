@@ -49,29 +49,8 @@ router.get('/', function(req, res) {
 
     var product_package_url = '/packages?c=';
     params['product_package_url'] = product_package_url + channel;
+    params['channel'] = channel;
     res.render('index', params);
-
-    // record the page_visited event
-    var now = new Date().toISOString().slice(0, 19).replace('T', ' ');
-    var ip = req.headers['x-forwarded-for'] ||
-        req.connection.remoteAddress ||
-        req.socket.remoteAddress ||
-        req.connection.socket.remoteAddress;
-
-    req.getConnection(function(err, connection) {
-          if (!!err)
-          {
-           console.error (now + " get mysql connection failed "+ err);
-	  }
-          else{
-              connection.query('INSERT IGNORE INTO Taiwan_WOC_TEST_TRACKING SET ?',{ip:ip,channel:channel,event:"page_visited",time:now}, function (err, result)
-              {
-		connection.release();
-                  if (!!err)
-               		console.error (now + " insert page_visited event into mysql db failed "+ err);
-		});
-          }
-    });
 });
 //
 //function encrypt(text){

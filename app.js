@@ -19,6 +19,7 @@ var mysql = require('mysql'); // node-mysql module
 
 var routes = require('./routes/index');
 var packages = require('./routes/packages');
+var visited = require('./routes/visited');
 
 var app = express();
 
@@ -37,7 +38,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/packages', packages);
-
+app.use('/visited', visited);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
