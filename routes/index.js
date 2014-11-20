@@ -42,8 +42,8 @@ router.get('/', function(req, res) {
     // 非法channel
     if (white_list.indexOf(channel) == -1){
         res.status(404);
-        var url = req.url;
-        res.render('404.jade', {title: '404: File Not Found', url: url });
+        var fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
+        res.render('404.jade', {title: 'Page Not Found', url: fullUrl });
         return;
     }
 
