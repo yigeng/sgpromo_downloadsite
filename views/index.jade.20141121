@@ -9,8 +9,8 @@ html(lang='zh-CN')
     script(src='js/video.js')
     script(src='js/bootstrap.min.js')
     script(src='js/static.js')
-    script(src='js/createmessage.js')
     script(src='/visited?c=#{channel}')
+    script(src='js/createmessage.js')
     link(rel='shortcut icon', href='img/favicon.ico')
     link(rel='bookmark', href='img/favicon.ico')
     link(href='css/bootstrap.css', rel='stylesheet')
@@ -62,8 +62,7 @@ html(lang='zh-CN')
             | &#x9;&#x9;&#x9;&#x9;&#x9;
             h5 Step.1
             | &#x9;&#x9;&#x9;&#x9;&#x9;
-            p
-              | &#x8A2D;&#x5B9A;&#x624B;&#x6A5F;&#x7684;&#x5B89;&#x5168;&#x6027;&#x3002;&#x6CE8;&#x610F;&#xFF1A;&#x5B89;&#x88DD;&#x524D;&#x8ACB;&#x5148;&#x81F3;&#x624B;&#x6A5F;&#x5167;&#x3010;&#x8A2D;&#x5B9A;&#x3011;&rarr;&#x3010;&#x5B89;&#x5168;&#x6027;&#x3011;&#x4E2D;&#xFF0C;&#x5C07;&#x3010;&#x672A;&#x77E5;&#x7684;&#x4F86;&#x6E90;&#x3011;&#x9805;&#x76EE;&#x6253;&#x52FE;&#xFF0C;&#x5982;&#x679C;&#x5DF2;&#x6709;&#x8A2D;&#x5B9A;&#x904E;&#x53EF;&#x8DF3;&#x904E;&#x6B64;&#x6B65;&#x9A5F;&#x3002;&#x5099;&#x8A3B;&#xFF1A;&#x82E5;&#x672A;&#x8A2D;&#x5B9A;&#x6B64;&#x6B65;&#x9A5F;&#xFF0C;&#x5728;&#x5B89;&#x88DD;&#x6642;&#x6703;&#x63D0;&#x793A;&quot;&#x9019;&#x985E;&#x578B;&#x7684;&#x6A94;&#x6848;&#x53EF;&#x80FD;&#x6703;&#x640D;&#x5BB3;&#x60A8;&#x7684;&#x88DD;&#x7F6E;&quot;&#xFF0C;&#x9EDE;&#x64CA;&#x78BA;&#x5B9A;&#x5373;&#x53EF;&#xFF0C;&#x656C;&#x8ACB;&#x653E;&#x5FC3;&#xFF1A;&#xFF09;
+            p &nbsp;&nbsp;&nbsp;&nbsp;&#x8A2D;&#x5B9A;&#x624B;&#x6A5F;&#x7684;&#x5B89;&#x5168;&#x6027;&#x3002;&#x6CE8;&#x610F;&#xFF1A;&#x5B89;&#x88DD;&#x524D;&#x8ACB;&#x5148;&#x81F3;&#x624B;&#x6A5F;&#x5167;&#x3010;&#x8A2D;&#x5B9A;&#x3011;&rarr;&#x3010;&#x5B89;&#x5168;&#x6027;&#x3011;&#x4E2D;&#xFF0C;&#x5C07;&#x3010;&#x672A;&#x77E5;&#x7684;&#x4F86;&#x6E90;&#x3011;&#x9805;&#x76EE;&#x6253;&#x52FE;&#xFF0C;&#x5982;&#x679C;&#x5DF2;&#x6709;&#x8A2D;&#x5B9A;&#x904E;&#x53EF;&#x8DF3;&#x904E;&#x6B64;&#x6B65;&#x9A5F;&#x3002;
             | &#x9;&#x9;&#x9;&#x9;&#x9;
             h5 Step.2
             | &#x9;&#x9;&#x9;&#x9;&#x9;
@@ -110,7 +109,7 @@ html(lang='zh-CN')
           h4(style='padding-bottom: 20px;') &#x9650;&#x6642;&#x6D3B;&#x52D5;
           | &#x9;&#x9;&#x9;&#x9;
           div(style='margin-left: 0px; padding-left: 20px; padding-top: 20px;')
-            h5 &#x300A;&#x82F1;&#x96C4;&#x6C7A;&#x52DD;&#x5718;&#x300B;&#x4E0D;&#x522A;&#x6A94;&#x6E2C;&#x8A66;&#x671F;&#x9593;&#xFF08;&#x5373;&#x65E5;&#x8D77;&#x81F3;12&#x6708;4&#x65E5;&#xFF09;&#xFF0C;&#x5B98;&#x65B9;&#x5C07;&#x9650;&#x91CF;&#x9001;&#x51FA;&#x50F9;&#x503C;6000&#x5143;&#x65B0;&#x53F0;&#x5E63;&#x7684;&#x865B;&#x5BF6;&#xFF0C;&#x6578;&#x91CF;&#x6709;&#x9650;&#xFF0C;&#x5148;&#x5230;&#x5148;&#x9818;&#xFF01;
+            h5 &#x300A;&#x82F1;&#x96C4;&#x6C7A;&#x52DD;&#x5718;&#x300B;&#x4E0D;&#x522A;&#x6A94;&#x6E2C;&#x8A66;&#x671F;&#x9593;&#xFF08;&#x5373;&#x65E5;&#x8D77;&#x81F3;12&#x6708;3&#x65E5;&#xFF09;&#xFF0C;&#x5B98;&#x65B9;&#x5C07;&#x9650;&#x91CF;&#x9001;&#x51FA;&#x50F9;&#x503C;6000&#x5143;&#x65B0;&#x53F0;&#x5E63;&#x7684;&#x865B;&#x5BF6;&#xFF0C;&#x6578;&#x91CF;&#x6709;&#x9650;&#xFF0C;&#x5148;&#x5230;&#x5148;&#x9818;&#xFF01;
             | &#x9;&#x9;&#x9;&#x9;&#x9;
             p &#x865B;&#x5BF6;&#x5167;&#x5BB9;&#xFF1A;
             | &#x9;&#x9;&#x9;&#x9;&#x9;
@@ -222,7 +221,7 @@ html(lang='zh-CN')
           div(style='margin-left: 0px; padding-left: 20px; padding-top: 20px;')
             p &#x7248;&#x672C;3.2.1
             | &#x9;&#x9;&#x9;&#x9;&#x9;
-            p &#x66F4;&#x65B0;&#x65BC;2014&#x5E74;11&#x6708;21&#x65E5;
+            p &#x66F4;&#x65B0;&#x65BC;2014/11/20
         | &#x9;&#x9;&#x9;
         .details-section-divider
       | &#x9;&#x9;
@@ -233,7 +232,7 @@ html(lang='zh-CN')
           div(style='margin-left: 0px; padding-left: 20px; padding-right: 20px;')
             p &#x66F4;&#x65B0;&#x65E5;&#x671F;:
             | &#x9;&#x9;&#x9;&#x9;&#x9;
-            p &nbsp;&nbsp;&nbsp;&nbsp;2014&#x5E74;11&#x6708;21&#x65E5;
+            p &nbsp;&nbsp;&nbsp;&nbsp;2014&#x5E74;11&#x6708;20&#x65E5;
             | &#x9;&#x9;&#x9;&#x9;&#x9;
             h5 &#x5927;&#x5C0F;:
             | &#x9;&#x9;&#x9;&#x9;&#x9;

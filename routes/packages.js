@@ -24,8 +24,7 @@ router.get('/', function(req, res) {
      var apk_address = "http://fastdcc.gamefirst.com.tw/soulgame/app/"+channel+"/"+apk_name;
 
      res.writeHead(302, {
-        'Location': apk_links[channel]
-        //add other headers here...
+        'Location': apk_address       
     });
     res.end();
     // record the apt_downloaded event
