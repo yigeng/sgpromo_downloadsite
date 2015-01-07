@@ -33,12 +33,11 @@ params = {
     other_information:'其他信息'
 }
 
-white_list = ['56','57','58','59','60'];
+white_list = ['56','57','58','59','60','61'];
 
 /* GET home page. */
 router.get('/', function(req, res) {
     var channel = req.query['c'];
-
     // 非法channel
     if (white_list.indexOf(channel) == -1){
         res.status(404);
